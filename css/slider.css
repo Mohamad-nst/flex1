@@ -1,0 +1,189 @@
+@media only screen and (min-width: 1200px){
+    div.slider{
+        width: 100%;
+        height: 100vh;
+        background: url("../images/1.jpg") no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+        transition: all 300ms linear;
+
+    }
+    div.slider>div.itemslider{
+        width: 40%;
+        height: auto;
+        position: absolute;
+        left: 10%;
+        top:20%;
+        box-shadow: 1px 1px 3px whitesmoke;
+        padding: 30px 25px;
+    }
+    div.slider>div.itemslider>h1{
+        text-align: left;
+        margin-bottom: 5px;
+        font-family: "Comic Sans MS";
+        text-transform: capitalize;
+        font-size:30px;
+        color: crimson;
+    }
+    div.slider>div.itemslider>p{
+        color: white;
+        font-family: "Comic Sans MS";
+        font-size: 16px;
+        text-align: justify;
+    }
+    div.slider>div.itemslider>p:first-letter{
+        font-size: 20px;
+        color: lime;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    div.slider{
+        width: 100%;
+        height: 100vh;
+        background: url("../images/2.jpg") no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+        transition: all 300ms linear;
+
+    }
+    div.slider>div.itemslider{
+        width: 45%;
+        height: auto;
+        position: absolute;
+        left: 10%;
+        top:20%;
+        box-shadow: 1px 1px 3px whitesmoke;
+        padding: 30px 25px;
+    }
+    div.slider>div.itemslider>h1{
+        text-align: left;
+        margin-bottom: 5px;
+        font-family: "Comic Sans MS";
+        text-transform: capitalize;
+        font-size:30px;
+        color: crimson;
+    }
+    div.slider>div.itemslider>p{
+        color: white;
+        font-family: "Comic Sans MS";
+        font-size: 16px;
+        text-align: justify;
+    }
+    div.slider>div.itemslider>p:first-letter{
+        font-size: 20px;
+        color: lime;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:990px) {
+    div.slider{
+        width: 100%;
+        height: 100vh;
+        background: url("../images/8.jpg") no-repeat top
+        center fixed;
+        background-size: cover;
+        position: relative;
+        transition: all 300ms linear;
+    }
+    div.slider>div.itemslider{
+        width: 50%;
+        height: auto;
+        position: absolute;
+        left: 10%;
+        top:20%;
+        box-shadow: 1px 1px 3px whitesmoke;
+        padding: 30px 25px;
+    }
+    div.slider>div.itemslider>h1{
+        text-align: left;
+        margin-bottom: 5px;
+        font-family: "Comic Sans MS";
+        text-transform: capitalize;
+        font-size:23px;
+        color: crimson;
+    }
+    div.slider>div.itemslider>p{
+        color: white;
+        font-family: "Comic Sans MS";
+        font-size: 16px;
+        text-align: justify;
+    }
+    div.slider>div.itemslider>p:first-letter{
+        font-size: 20px;
+        color: lime;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px){
+    div.slider{
+        width: 100%;
+        height: 100vh;
+        background: url("../images/8.jpg") no-repeat top
+        center fixed;
+        background-size: cover;
+        position: relative;
+    }
+    div.slider>div.itemslider{
+        width: 75%;
+        height: auto;
+        position: absolute;
+        left:calc(50% - 75%/2);
+        bottom:15%;
+        box-shadow: 1px 1px 3px whitesmoke;
+        padding: 30px 25px;
+    }
+    div.slider>div.itemslider>h1{
+        text-align: left;
+        margin-bottom: 5px;
+        font-family: "Comic Sans MS";
+        text-transform: capitalize;
+        font-size:23px;
+        color: crimson;
+    }
+    div.slider>div.itemslider>p{
+        color: white;
+        font-family: "Comic Sans MS";
+        font-size: 16px;
+        text-align: justify;
+    }
+    div.slider>div.itemslider>p:first-letter{
+        font-size: 20px;
+        color: lime;
+    }
+}
+@media only screen and (max-width: 540px){
+    div.slider{
+        width: 100%;
+        height: 100vh;
+        background: url("../images/8.jpg") no-repeat top
+        center fixed;
+        background-size: cover;
+        position: relative;
+        transition: all 300ms linear;
+    }
+    div.slider>div.itemslider{
+        width: 90%;
+        height: auto;
+        position: absolute;
+        left: 5%;
+        bottom:10%;
+        box-shadow: 1px 1px 3px whitesmoke;
+        padding: 30px 25px;
+    }
+    div.slider>div.itemslider>h1{
+        text-align: left;
+        margin-bottom: 5px;
+        font-family: "Comic Sans MS";
+        text-transform: capitalize;
+        font-size:23px;
+        color: crimson;
+    }
+    div.slider>div.itemslider>p{
+        color: white;
+        font-family: "Comic Sans MS";
+        font-size: 16px;
+        text-align: justify;
+    }
+    div.slider>div.itemslider>p:first-letter{
+        font-size: 20px;
+        color: lime;
+    }
+}
